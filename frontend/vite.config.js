@@ -3,5 +3,15 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  css: {
+		preprocessorOptions: {
+			scss: {
+				quietDeps: true
+			},
+		}
+	},
+	build: {
+		outDir: "/public/dist"
+  },
   plugins: [vue()]
 })

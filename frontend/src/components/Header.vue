@@ -2,17 +2,17 @@
 
 <header class="menu">
       <div class="menu-wrap">
-          <!-- <div class="icon-wrapper">
-            <a href="https://github.com/MrButak" target="_blank" rel="noreferrer noopener"><GithubIcon class="mobile-header-icon"/></a>
+          <div class="icon-wrapper">
+            <!-- <a href="https://github.com/MrButak" target="_blank" rel="noreferrer noopener"><GithubIcon class="mobile-header-icon"/></a>
             <a href="mailto: mspence5555@gmail.com" target="_blank" rel="noreferrer noopener"><EmailIcon class="mobile-header-icon"/></a>
-            <a href="https://www.linkedin.com/in/matthew-w-spence" target="_blank" rel="noreferrer noopener"><LinkedinIcon class="mobile-header-icon"/></a>
-          </div> -->
+            <a href="https://www.linkedin.com/in/matthew-w-spence" target="_blank" rel="noreferrer noopener"><LinkedinIcon class="mobile-header-icon"/></a> -->
+          </div>
           <input type="checkbox" id="checkbox">
           <nav>
               <ul>
                   <li><a href="#">Home</a></li>
-                  <li><a href="#">Projects</a></li>
-                  <li><a :href="resume" target="_blank" rel="noopener noreferrer" download>Resume</a></li>
+                  <li><a href="#">Roadmap</a></li>
+                  <li><a :href="resume" target="_blank" rel="noopener noreferrer" download>About</a></li>
               </ul>
           </nav>
           <label id="hamburg-icon" class="menu-icon" for="checkbox">
