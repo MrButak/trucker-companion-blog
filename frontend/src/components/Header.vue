@@ -12,7 +12,8 @@
               <ul>
                   <li><a href="#">Home</a></li>
                   <li><a href="#">Roadmap</a></li>
-                  <li><a :href="resume" target="_blank" rel="noopener noreferrer" download>About</a></li>
+                  <li><a href="#">About</a></li>
+                  <!-- <li><a :href="resume" target="_blank" rel="noopener noreferrer" download>About</a></li> -->
               </ul>
           </nav>
           <label id="hamburg-icon" class="menu-icon" for="checkbox">

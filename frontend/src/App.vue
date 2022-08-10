@@ -12,13 +12,13 @@ import Footer from './components/Footer.vue';
 @font-face {
     font-family: "Roboto";
     src: local("Roboto"),
-    url(./assets/fonts/Roboto-Regular.ttf) format("truetype");
+    url(/Roboto-Regular.ttf) format("truetype");
     font-display: swap;
 }
 @font-face {
     font-family: "Raleway";
     src: local("Raleway"),
-    url(./assets/fonts/Raleway-Regular.ttf) format("truetype");
+    url(/Raleway-Regular.ttf) format("truetype");
     font-display: swap;
 }
 * {
